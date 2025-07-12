@@ -1,0 +1,724 @@
+<aivalley>
+<html>
+<html style="scrollbar-width: thin;scrollbar-color: rgb(219,219,219)rgb(255,255,255);"><head><meta charset="utf-8"><title>Microsoft builds medical superintelligence</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+@media (max-width: 1024px) {
+  .typography,
+  .typography.editor {
+    /* Disable offset on mobile/tablet */
+  }
+  .typography .captioned-image-container figure:has(> a.image2-align-left),
+  .typography.editor .captioned-image-container figure:has(> a.image2-align-left),
+  .typography .captioned-image-container figure:has(> a.image2-align-right),
+  .typography.editor .captioned-image-container figure:has(> a.image2-align-right) {
+    float: none;
+    margin: 1em auto;
+    max-width: 100%;
+    width: auto;
+    padding: 0;
+  }
+  .typography .captioned-image-container figure:has(> a.image2-align-left.thefp),
+  .typography.editor .captioned-image-container figure:has(> a.image2-align-left.thefp),
+  .typography .captioned-image-container figure:has(> a.image2-align-right.thefp),
+  .typography.editor .captioned-image-container figure:has(> a.image2-align-right.thefp) {
+    margin: 1em auto;
+  }
+  .typography .captioned-image-container figure:has(> a.image2-offset-left),
+  .typography.editor .captioned-image-container figure:has(> a.image2-offset-left),
+  .typography .captioned-image-container figure:has(> a.image2-offset-right),
+  .typography.editor .captioned-image-container figure:has(> a.image2-offset-right) {
+    margin: 1em auto;
+  }
+  .typography .captioned-image-container figure:has(> a.image2-align-left) .image2-inset,
+  .typography.editor .captioned-image-container figure:has(> a.image2-align-left) .image2-inset,
+  .typography .captioned-image-container figure:has(> a.image2-align-right) .image2-inset,
+  .typography.editor .captioned-image-container figure:has(> a.image2-align-right) .image2-inset {
+    display: block;
+    justify-content: initial;
+  }
+}
+@media (max-width: 768px) {
+  .typography .markup div.sponsorship-campaign-embed,
+  .typography.editor .markup div.sponsorship-campaign-embed {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .typography .markup div.sponsorship-campaign-embed:first-child,
+  .typography.editor .markup div.sponsorship-campaign-embed:first-child {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-overlay,
+  .typography.editor .markup div.youtube-overlay,
+  .typography .markup div.vimeo-overlay,
+  .typography.editor .markup div.vimeo-overlay {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.show-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-publication.show-subscribe {
+    padding: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.show-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-widget.show-subscribe,
+  .typography .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-subscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget.show-subscribe {
+    padding: 0px 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substack-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-embed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-embed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-app-embed-link {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-container {
+    padding: 36px;
+    height: 680px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-container .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header-anchor-parent {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .post {
+    padding: 16px 0 0 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column .post-meta {
+    margin-top: 6px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 32px 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-publication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+    /* important to override in-line height style on emails */
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    /* Disable offset on mobile/tablet */
+  }
+  body .captioned-image-container figure:has(> a.image2-align-left),
+  body .captioned-image-container figure:has(> a.image2-align-right) {
+    float: none;
+    margin: 1em auto;
+    max-width: 100%;
+    width: auto;
+    padding: 0;
+  }
+  body .captioned-image-container figure:has(> a.image2-align-left.thefp),
+  body .captioned-image-container figure:has(> a.image2-align-right.thefp) {
+    margin: 1em auto;
+  }
+  body .captioned-image-container figure:has(> a.image2-offset-left),
+  body .captioned-image-container figure:has(> a.image2-offset-right) {
+    margin: 1em auto;
+  }
+  body .captioned-image-container figure:has(> a.image2-align-left) .image2-inset,
+  body .captioned-image-container figure:has(> a.image2-align-right) .image2-inset {
+    display: block;
+    justify-content: initial;
+  }
+}
+@media (max-width: 768px) {
+  body .markup div.sponsorship-campaign-embed {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  body .markup div.sponsorship-campaign-embed:first-child {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-overlay,
+  body .markup div.vimeo-overlay {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-subscribe {
+    padding: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subscribe,
+  body .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscribe {
+    padding: 0px 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  body .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+}
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subscription-discount {
+    width: 72px !important;
+  }
+}
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: calc(10 + 32px - 24px);
+  }
+}
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-player-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type {
+    display: block;
+  }
+}
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-type {
+    display: block;
+  }
+}
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-type {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-type {
+    display: block;
+  }
+}
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .modal-content > .container {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .modal-exit-btn {
+    margin-right: -20px;
+  }
+}</style></head><body class="email-body" style="font-kerning: auto;--image-offset-margin: -117px;"><img src="https://eotrx.substackcdn.com/open?token=eyJtIjoiPDIwMjUwNzA3MTQ1OTI4LjMuMjM0OGZhNTZjYjgzYWViOUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MzU0MjYxOTU3LCJyIjoicm9oaXQzMTNhZ2dAZ21haWwuY29tIiwiZCI6Im1nLWQwLnN1YnN0YWNrLmNvbSIsInAiOjE2NzcxNjIyNiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo1MDI1NjIyLCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzUxOTAwNTEzLCJleHAiOjE3NTQ0OTI1MTMsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.b346VV5LXYaHi75_Jf3mz1VK7u_oSpclvMYPaayzi84" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/><div class="preview" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">PLUS: Google's human trials of its AI-designed drugs</div><div class="preview" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;&#847; &nbsp; &#8199; &#173;</div><table class="email-body-container" role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td></td><td class="content" width="550"></td><td></td></tr><tr><td></td><td class="content" width="550" align="left"><div style="font-size: 16px;line-height: 26px;max-width: 550px;width: 100%;margin: 0 auto;overflow-wrap: break-word;"><table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="right" style="height:20px;"><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align:middle;"><span class="pencraft pc-reset reset-IxiVJZ tw-font-body tw-text-ssm tw-text-substack-secondary" style="font-family: SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;font-size: 13px;color: unset;list-style: none;text-decoration: unset;margin: 0;"><div class="pencraft pc-reset align-right-VJbKw5 size-12-mmZ61m reset-IxiVJZ" style="list-style: none;color: unset;text-align: right;font-size: 12px;line-height: 16px;text-decoration: unset;margin: 0;"><span class="pencraft pc-reset reset-IxiVJZ" translated="" style="list-style: none;color: unset;text-decoration: unset;margin: 0;">Forwarded this email? <a class="pencraft pc-reset decoration-underline-ClTkYc reset-IxiVJZ" href="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9haXZhbGxleS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTV1eDI5eCZuZXh0PWh0dHBzJTNBJTJGJTJGYWl2YWxsZXkuc3Vic3RhY2suY29tJTJGcCUyRm1pY3Jvc29mdC1idWlsZHMtbWVkaWNhbC1zdXBlcmludGVsbGlnZW5jZSIsInAiOjE2NzcxNjIyNiwicyI6NTAyNTYyMiwiZiI6dHJ1ZSwidSI6MzU0MjYxOTU3LCJpYXQiOjE3NTE5MDA1MTIsImV4cCI6MjA2NzQ3NjUxMiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.K8psGhe9VSMNzAax0vsjf-ChB5uc6Tf5vh3TNeHKKnc?" style="list-style: none;color: unset;text-decoration: unset;margin: 0;-webkit-text-decoration-line: underline;text-decoration-line: underline;">Subscribe here</a> for more</span></div></span></td></tr></tbody></table></td></tr></tbody></table><div class="post typography" dir="auto" style="--image-offset-margin: -117px;padding: 32px 0 0 0;font-size: 16px;line-height: 26px;"><div class="post-header" role="region" aria-label="Post header" style="font-size: 16px;line-height: 26px;"><h1 class="post-title published" style="color: rgb(54,55,55);font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 0;line-height: 36px;font-size: 32px;"><a href="https://substack.com/app-link/post?publication_id=5025622&post_id=167716226&utm_source=post-email-title&utm_campaign=email-post-title&isFreemail=true&r=5ux29x&token=eyJ1c2VyX2lkIjozNTQyNjE5NTcsInBvc3RfaWQiOjE2NzcxNjIyNiwiaWF0IjoxNzUxOTAwNTEyLCJleHAiOjE3NTQ0OTI1MTIsImlzcyI6InB1Yi01MDI1NjIyIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.7sQVxHIz5uQltAbeg5Xr_Knzprjv0ZGGFiXFrajAYBQ" style="color: rgb(54,55,55);text-decoration: none;">Microsoft builds medical superintelligence</a></h1><h3 class="subtitle" style="font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 4px 0 0;color: #777777;line-height: 24px;font-size: 18px;margin-top: 12px;">PLUS: Google's human trials of its AI-designed drugs</h3><table class="post-meta" role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 1em 0;height: 20px;align-items: center;"><tbody><tr><td><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align:middle;"><div class="pencraft pc-reset color-primary-zABazT line-height-20-t4M0El font-meta-MWBumP size-11-NuY2Zx weight-medium-fw81nC transform-uppercase-yKDgcq reset-IxiVJZ meta-EgzBVA custom-css-email-post-author" style="list-style: none;font-size: 11px;line-height: 20px;text-decoration: unset;color: rgb(54,55,55);margin: 0;font-family: 'SF Compact',-apple-system,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: 500;text-transform: uppercase;letter-spacing: .2px;"><a class="pencraft pc-reset color-primary-zABazT line-height-20-t4M0El font-meta-MWBumP size-11-NuY2Zx weight-medium-fw81nC transform-uppercase-yKDgcq reset-IxiVJZ meta-EgzBVA" style="list-style: none;color: rgb(54,55,55);margin: 0;font-size: 11px;line-height: 20px;font-family: 'SF Compact',-apple-system,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: 500;text-transform: uppercase;letter-spacing: .2px;text-decoration: none" href="https://substack.com/@heybarsee">Barsee</a></div></td></tr></tbody></table></td></tr><tr><td><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align:middle;"><div class="pencraft pc-reset color-secondary-ls1g8s line-height-20-t4M0El font-meta-MWBumP size-11-NuY2Zx weight-medium-fw81nC transform-uppercase-yKDgcq reset-IxiVJZ meta-EgzBVA" style="list-style: none;font-size: 11px;line-height: 20px;text-decoration: unset;color: rgb(119,119,119);margin: 0;font-family: 'SF Compact',-apple-system,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: 500;text-transform: uppercase;letter-spacing: .2px;"><time datetime="2025-07-07T15:00:56.264Z">Jul 7</time></div></td></tr></tbody></table></td></tr></tbody></table></td><td align="right"><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align:middle;"><a href="https://substack.com/@heybarsee"><img class="custom-css-email-avatar avatar-QIQ5yR" src="https://substackcdn.com/image/fetch/$s_!oQKc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c21f36c-7f17-4289-b5ff-b469087a0db6_1134x1134.jpeg" style="box-sizing: border-box;border-radius: 500000px;max-width: 550px;border: none;vertical-align: middle;width: 40px;height: 40px;min-width: 40px;min-height: 40px;object-fit: cover;margin: 0px;display: inline" width="40" height="40"></a></td></tr></tbody></table></td></tr></tbody></table><table class="email-ufi-2-top" role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top: 1px solid rgb(0,0,0,.1);border-bottom: 1px solid rgb(0,0,0,.1);min-width: 100%;"><tbody><tr height="16"><td height="16" style="font-size:0px;line-height:0;">&nbsp;</td></tr><tr><td><table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align:middle;"><table role="presentation" width="38" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><a class="email-icon-button" href="https://substack.com/app-link/post?publication_id=5025622&post_id=167716226&utm_source=substack&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjozNTQyNjE5NTcsInBvc3RfaWQiOjE2NzcxNjIyNiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3NTE5MDA1MTIsImV4cCI6MTc1NDQ5MjUxMiwiaXNzIjoicHViLTUwMjU2MjIiLCJzdWIiOiJyZWFjdGlvbiJ9.GgIAUB-vy0f-bGk7smoxYJhRm8XYqVjl1Z-ImiG-Q2E&utm_medium=email&utm_campaign=email-reaction&r=5ux29x" style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 1;padding: 9px 0;text-decoration: none;color: rgb(119,119,119);min-width: 38px;box-sizing: border-box;width: 38px"><img class="icon" src="https://substackcdn.com/image/fetch/$s_!PeVs!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width="18" height="18" style="border: none;vertical-align: middle;max-width: 18px" alt=""></a></td></tr></tbody></table></td><td width="8" style="min-width: 8px"></td><td style="vertical-align:middle;"><table role="presentation" width="38" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><a class="email-icon-button" href="https://substack.com/app-link/post?publication_id=5025622&post_id=167716226&utm_source=substack&utm_medium=email&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjozNTQyNjE5NTcsInBvc3RfaWQiOjE2NzcxNjIyNiwiaWF0IjoxNzUxOTAwNTEyLCJleHAiOjE3NTQ0OTI1MTIsImlzcyI6InB1Yi01MDI1NjIyIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.7sQVxHIz5uQltAbeg5Xr_Knzprjv0ZGGFiXFrajAYBQ&r=5ux29x&utm_campaign=email-half-magic-comments&action=post-comment&utm_source=substack&utm_medium=email" style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 1;padding: 9px 0;text-decoration: none;color: rgb(119,119,119);min-width: 38px;box-sizing: border-box;width: 38px"><img class="icon" src="https://substackcdn.com/image/fetch/$s_!x1tS!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width="18" height="18" style="border: none;vertical-align: middle;max-width: 18px" alt=""></a></td></tr></tbody></table></td><td width="8" style="min-width: 8px"></td><td style="vertical-align:middle;"><table role="presentation" width="38" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><a class="email-icon-button" href="https://substack.com/app-link/post?publication_id=5025622&post_id=167716226&utm_source=substack&utm_medium=email&utm_content=share&utm_campaign=email-share&action=share&triggerShare=true&isFreemail=true&r=5ux29x&token=eyJ1c2VyX2lkIjozNTQyNjE5NTcsInBvc3RfaWQiOjE2NzcxNjIyNiwiaWF0IjoxNzUxOTAwNTEyLCJleHAiOjE3NTQ0OTI1MTIsImlzcyI6InB1Yi01MDI1NjIyIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.7sQVxHIz5uQltAbeg5Xr_Knzprjv0ZGGFiXFrajAYBQ" style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 1;padding: 9px 0;text-decoration: none;color: rgb(119,119,119);min-width: 38px;box-sizing: border-box;width: 38px"><img class="icon" src="https://substackcdn.com/image/fetch/$s_!_L14!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare2%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width="18" height="18" style="border: none;vertical-align: middle;max-width: 18px" alt=""></a></td></tr></tbody></table></td><td width="8" style="min-width: 8px"></td><td style="vertical-align:middle;"><table role="presentation" width="38" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><a class="email-icon-button" href="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvYWl2YWxsZXkvcC9taWNyb3NvZnQtYnVpbGRzLW1lZGljYWwtc3VwZXJpbnRlbGxpZ2VuY2U_dXRtX3NvdXJjZT1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1yZXN0YWNrLWNvbW1lbnQmYWN0aW9uPXJlc3RhY2stY29tbWVudCZyPTV1eDI5eCZ0b2tlbj1leUoxYzJWeVgybGtJam96TlRReU5qRTVOVGNzSW5CdmMzUmZhV1FpT2pFMk56Y3hOakl5Tml3aWFXRjBJam94TnpVeE9UQXdOVEV5TENKbGVIQWlPakUzTlRRME9USTFNVElzSW1semN5STZJbkIxWWkwMU1ESTFOakl5SWl3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkuN3NRVnhISXo1dVFsdEFiZWc1WHJfS256cHJqdjBaR0dGaVhGcmFqQVlCUSIsInAiOjE2NzcxNjIyNiwicyI6NTAyNTYyMiwiZiI6dHJ1ZSwidSI6MzU0MjYxOTU3LCJpYXQiOjE3NTE5MDA1MTIsImV4cCI6MjA2NzQ3NjUxMiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.BpZJR23KbysNYG59nS9TnX2S5teeg-g_IrEvFwTKOw4?&utm_source=substack&utm_medium=email" style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 1;padding: 9px 0;text-decoration: none;color: rgb(119,119,119);min-width: 38px;box-sizing: border-box;width: 38px"><img class="icon" src="https://substackcdn.com/image/fetch/$s_!5EGt!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FNoteForwardIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width="18" height="18" style="border: none;vertical-align: middle;max-width: 18px" alt=""></a></td></tr></tbody></table></td></tr></tbody></table></td><td align="right"><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align:middle;"><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><a class="email-button-outline" href="https://open.substack.com/pub/aivalley/p/microsoft-builds-medical-superintelligence?utm_source=email&redirect=app-store&utm_campaign=email-read-in-app" style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 12px;padding: 9px 14px;text-decoration: none;color: rgb(119,119,119);"><div class="email-button-spacer" style="font-size: 16px;line-height: 26px;display: inline-block;vertical-align: middle;max-width: 0;min-height: 18px;"></div><span class="email-button-text" style="vertical-align: middle;margin-right: 4px">READ IN APP</span><img class="icon text-icon" src="https://substackcdn.com/image/fetch/$s_!ET-_!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideArrowUpRight%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width="18" height="18" style="min-width: 18px;min-height: 18px;border: none;vertical-align: middle;margin-right: 0;margin-left: 0;max-width: 18px" alt=""></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr height="16"><td height="16" style="font-size:0px;line-height:0;">&nbsp;</td></tr></tbody></table></div></div><div class="pencraft pc-paddingTop-16 pc-reset" style="text-decoration: unset;list-style: none;padding-top: 16px;font-size: 16px;line-height: 26px;"><div class="pencraft pc-padding-16 pc-reset bg-primary-hover-d7iQcV border-detail-EGrm7T pc-borderRadius-md" style="text-decoration: unset;list-style: none;border-radius: 12px;padding: 16px;border: 1px solid rgb(0,0,0,.1);background-color: rgb(250,250,250);font-size: 16px;line-height: 26px;"><div class="pencraft pc-reset line-height-24-jnGwiv font-text-qe4AeH size-17-JHHggF weight-heavy-BCI3Mb reset-IxiVJZ" translated="" style="list-style: none;color: unset;font-size: 17px;line-height: 24px;text-decoration: unset;margin: 0;font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: 800;">Welcome to AI Valley</div><div class="pencraft pc-paddingTop-8 pc-reset color-secondary-ls1g8s line-height-20-t4M0El font-text-qe4AeH size-13-hZTUKr font-style-italic-I3_Jdy weight-regular-mUq6Gb reset-IxiVJZ" translated="" style="list-style: none;padding-top: 8px;font-style: italic;font-size: 13px;line-height: 20px;text-decoration: unset;color: rgb(119,119,119);margin: 0;font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: 400;">Don&#8217;t recognize this sender? <a class="pencraft pc-reset color-accent-BVX_7M decoration-underline-ClTkYc reset-IxiVJZ" href="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9haXZhbGxleS5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWwvZGlzYWJsZT90b2tlbj1leUoxYzJWeVgybGtJam96TlRReU5qRTVOVGNzSW5CdmMzUmZhV1FpT2pFMk56Y3hOakl5Tml3aWFXRjBJam94TnpVeE9UQXdOVEV5TENKbGVIQWlPakUzT0RNME16WTFNVElzSW1semN5STZJbkIxWWkwMU1ESTFOakl5SWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuOXdKdW9ZLVJzclBqUVVnbGxlR1FjWU9iOGJycFpwTUxpQkw2aU5IcmdjUSZhbGxfc2VjdGlvbnM9dHJ1ZSZyZXBvcnRfaW1wb3J0PXRydWUiLCJwIjoxNjc3MTYyMjYsInMiOjUwMjU2MjIsImYiOnRydWUsInUiOjM1NDI2MTk1NywiaWF0IjoxNzUxOTAwNTEyLCJleHAiOjIwNjc0NzY1MTIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.5iPKPd2zE_LA8trOXzIwocaNGi39vuaL_vrrTslpbOM?" style="list-style: none;text-decoration: unset;color: rgb(255,103,25);margin: 0;-webkit-text-decoration-line: underline;text-decoration-line: underline;">Unsubscribe with one click</a></div><div class="pencraft pc-paddingTop-8 pc-reset line-height-20-t4M0El font-text-qe4AeH size-13-hZTUKr weight-regular-mUq6Gb reset-IxiVJZ" translated="" style="list-style: none;padding-top: 8px;color: unset;font-size: 13px;line-height: 20px;text-decoration: unset;margin: 0;font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: 400;">Barsee recently imported your email address from another platform to Substack. You'll now receive their posts via email or the <a class="pencraft pc-reset decoration-underline-ClTkYc reset-IxiVJZ" href="https://link.sbstck.com/redirect/3fe0a906-5108-427e-9233-1924d37de628?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" style="list-style: none;color: unset;text-decoration: unset;margin: 0;-webkit-text-decoration-line: underline;text-decoration-line: underline;">Substack app</a>. To set up your profile and discover more on Substack, <a class="pencraft pc-reset decoration-underline-ClTkYc reset-IxiVJZ" href="https://link.sbstck.com/redirect/3bf35d2c-d78e-469d-ae5f-2ac109c3021c?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" style="list-style: none;color: unset;text-decoration: unset;margin: 0;-webkit-text-decoration-line: underline;text-decoration-line: underline;">click here</a>.</div></div></div><div class="post typography" dir="auto" style="--image-offset-margin: -117px;padding: 32px 0 0 0;font-size: 16px;line-height: 26px;"><div class="body markup" dir="auto" style="text-align: initial;font-size: 16px;line-height: 26px;width: 100%;word-break: break-word;margin-bottom: 16px;"><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;margin-top: 0;">Howdy. It&#8217;s Barsee again.</p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><em>Happy Monday</em><span>, AI family, and welcome back to AI Valley.</span></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><em><strong>Quick heads-up:</strong></em><span> I&#8217;m testing something new. For this edition, I&#8217;ve moved our newsletter from Beehiiv to Substack to see how it feels on both ends. Nothing&#8217;s set in stone yet, but I&#8217;d love to hear if you notice a difference or if everything feels the same.</span></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><strong>Today&#8217;s climb through the Valley reveals:</strong></p><ul style="margin-top: 0;padding: 0;"><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">Microsoft presents medical superintelligence</p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">Google's human trials of its AI-designed drugs</p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">AI capabilities are doubling every 7 months</p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">4 out of the top 10 YouTube channels are now AI-generated</p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">And some AI tools, brain boosts, and resources</p></li></ul><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><em>Let&#8217;s dive into the Valley of AI&#8230;</em></p><div style="font-size: 16px;line-height: 26px;"><hr style="margin: 32px 0;padding: 0;height: 1px;background: #e6e6e6;border: none;"></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><strong>PARTNER</strong></p><h2 class="header-anchor-post" style="position: relative;font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: 1.625em;"><a href="https://link.sbstck.com/redirect/ad1799cb-9fc1-4720-9568-9e3fb5ac5caa?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Turn Product Links into Meta Ads in Minutes with Ability AI Ads</a><span> *</span></h2><div class="captioned-image-container-static" style="font-size: 16px;line-height: 26px;margin: 32px auto;"><figure style="width: 100%;margin: 0 auto;"><table class="image-wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" data-component-name="Image2ToDOMStatic" style="mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style="text-align: center;"></td><td class="content" align="left" width="1456" style="text-align: center;"><a class="image-link" target="_blank" href="https://link.sbstck.com/redirect/ad1799cb-9fc1-4720-9568-9e3fb5ac5caa?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="position: relative;flex-direction: column;align-items: center;padding: 0;width: auto;height: auto;border: none;text-decoration: none;display: block;margin: 0;"><img class="wide-image" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/9b10a4cd-e80d-42e2-ac4d-491fbae9125f_2400x1400.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:849,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:203223,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:&quot;http://ads.ability.ai/?utm_source=AI%20Valley&amp;utm_medium=Main%20Ad&amp;utm_campaign=email&amp;utm_content=Product%20Site&quot;,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://aivalley.substack.com/i/167716226?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9b10a4cd-e80d-42e2-ac4d-491fbae9125f_2400x1400.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" alt="" width="550" height="320.7074175824176" src="https://substackcdn.com/image/fetch/$s_!LxRY!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9b10a4cd-e80d-42e2-ac4d-491fbae9125f_2400x1400.png" style="border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;"></a></td><td style="text-align: center;"></td></tr></tbody></table></figure></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>Running Meta ads shouldn't take hours. With </span><a href="https://link.sbstck.com/redirect/ad1799cb-9fc1-4720-9568-9e3fb5ac5caa?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Ability AI Ads</a><span>, you paste a product link, and in five minutes, you're ready to launch. It pulls your images, writes the ad copy, recommends targeting, and connects to your Meta ad account &#8211; all in one clean workflow.</span></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">Designed for dropshippers, solopreneurs, and lean e-commerce teams, the tool replaces manual setup with AI-powered speed. You stay in control, with simple Apply/Decline buttons for every AI suggestion.</p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">Behind the scenes, an intelligent agent engine optimizes your campaigns and learns your style over time.</p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">No design, copywriting, or media buying skills required.</p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>&#128073; </span><a href="https://link.sbstck.com/redirect/ad1799cb-9fc1-4720-9568-9e3fb5ac5caa?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Try it for 7 days free with unlimited access</a></p><div style="font-size: 16px;line-height: 26px;"><hr style="margin: 32px 0;padding: 0;height: 1px;background: #e6e6e6;border: none;"></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><strong>PEAK OF THE DAY</strong></p><h2 class="header-anchor-post" style="position: relative;font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: 1.625em;">Microsoft builds medical superintelligence</h2><div class="captioned-image-container-static" style="font-size: 16px;line-height: 26px;margin: 32px auto;"><figure style="width: 100%;margin: 0 auto;"><table class="image-wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" data-component-name="Image2ToDOMStatic" style="mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style="text-align: center;"></td><td class="content" align="left" width="1456" style="text-align: center;"><a class="image-link" target="_blank" href="https://link.sbstck.com/redirect/d14f051f-a98d-4b88-bbb8-504cb4326130?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="position: relative;flex-direction: column;align-items: center;padding: 0;width: auto;height: auto;border: none;text-decoration: none;display: block;margin: 0;"><img class="wide-image" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/48b76de1-8dcc-4018-94de-28e27ad1bd18_1728x1484.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1250,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:242573,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:&quot;http://medical superintelligence&quot;,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://aivalley.substack.com/i/167716226?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48b76de1-8dcc-4018-94de-28e27ad1bd18_1728x1484.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" alt="" width="550" height="472.1840659340659" src="https://substackcdn.com/image/fetch/$s_!G7lo!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48b76de1-8dcc-4018-94de-28e27ad1bd18_1728x1484.png" style="border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;"></a></td><td style="text-align: center;"></td></tr></tbody></table></figure></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>Microsoft has developed a new </span><a href="https://link.sbstck.com/redirect/d14f051f-a98d-4b88-bbb8-504cb4326130?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">medical AI</a><span> tool that performs better than human doctors at complex health diagnoses at a fraction of the cost, creating a &#8220;path to medical superintelligence&#8221;.</span></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><strong>Here&#8217;s what you need to know:</strong></p><ul style="margin-top: 0;padding: 0;"><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>Called &#8220;</span><a href="https://link.sbstck.com/redirect/36ebf43a-9c18-49db-8ebe-88a5fbfe219b?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Microsoft AI Diagnostic Orchestrator</a><span>&#8221;, or </span><strong>MAI-DxO </strong><span>for short, the AI-powered tool is developed by the company&#8217;s AI health unit, which was founded last year by Mustafa Suleyman.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">In their experiment, they achieved an accuracy rate of up to 85.5% on complex medical cases, compared to just 20% for experienced human physicians. This means the AI was over four times more accurate when diagnosing some of the most challenging cases from the New England Journal of Medicine (NEJM)</p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>Microsoft used 304 case studies from the </span><em><a href="https://link.sbstck.com/redirect/01ef1901-2e17-4407-b350-5caa97f77db7?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">New England Journal of Medicine</a></em><a href="https://link.sbstck.com/redirect/01ef1901-2e17-4407-b350-5caa97f77db7?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;"> </a><span>to develop the &#8220;</span><a href="https://link.sbstck.com/redirect/f1bcb04c-0444-4c96-855d-6a6e0af7c8e8?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Sequential Diagnosis Benchmark</a><span>,&#8221; which simulates the step-by-step process a doctor would use to diagnose a patient.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">MAI-DxO queries multiple AI models (OpenAI&#8217;s GPT, Google&#8217;s Gemini, Meta&#8217;s Llama, Anthropic&#8217;s Claude, and xAI&#8217;s Grok), mimicking the collaboration of multiple doctors.</p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">MAI-DxO reduced diagnostic costs by about 20% compared to human doctors, and by up to 70% compared to using a single AI model alone.</p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;">While AI will complement human doctors, Microsoft stresses that it isn&#8217;t designed to replace them. Doctors still play a vital role in patient trust and dealing with ambiguity.</p></li></ul><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><strong>Why it matters:</strong></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">With the ability to outperform human doctors in complex cases, this technology could help reduce medical costs, especially in the US, where healthcare expenses are a major concern. However, it&#8217;s still early days, and the next step will involve testing its effectiveness in real-world clinical trials. If proven successful, this AI system could significantly improve healthcare accessibility and efficiency, ultimately changing the way doctors and patients approach medical diagnoses.</p><div style="font-size: 16px;line-height: 26px;"><hr style="margin: 32px 0;padding: 0;height: 1px;background: #e6e6e6;border: none;"></div><h2 class="header-anchor-post" style="position: relative;font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: 1.625em;">Google DeepMind is starting human trials of its AI-designed drugs</h2><div class="captioned-image-container-static" style="font-size: 16px;line-height: 26px;margin: 32px auto;"><figure style="width: 100%;margin: 0 auto;"><table class="image-wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" data-component-name="Image2ToDOMStatic" style="mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style="text-align: center;"></td><td class="content" align="left" width="1456" style="text-align: center;"><a class="image-link" target="_blank" href="https://link.sbstck.com/redirect/b312f55d-8271-4ad3-b157-ac78b239806f?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="position: relative;flex-direction: column;align-items: center;padding: 0;width: auto;height: auto;border: none;text-decoration: none;display: block;margin: 0;"><img class="wide-image" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/ef83ccc4-c4d0-45fe-91f7-daa178415dbe_2226x1286.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:841,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1832722,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:&quot;https://www.youtube.com/watch?v=P_fHJIYENdI&quot;,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://aivalley.substack.com/i/167716226?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef83ccc4-c4d0-45fe-91f7-daa178415dbe_2226x1286.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" alt="" width="550" height="317.68543956043953" src="https://substackcdn.com/image/fetch/$s_!K6--!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef83ccc4-c4d0-45fe-91f7-daa178415dbe_2226x1286.png" style="border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;"></a></td><td style="text-align: center;"></td></tr></tbody></table></figure></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>Alphabet&#8217;s </span><a href="https://link.sbstck.com/redirect/f3c5973a-1618-43f0-8c93-52d2f4855020?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Isomorphic Labs</a><span>, the AI-powered drug discovery arm born from DeepMind, is preparing to begin its </span><a href="https://link.sbstck.com/redirect/ef7312f6-228a-4ff0-81c9-17670e3aa84e?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">first human clinical trials</a><span> of drugs designed using artificial intelligence.</span></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><strong>Here&#8217;s what you need to know:</strong></p><ul style="margin-top: 0;padding: 0;"><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>Isomorphic Labs leverages </span><a href="https://link.sbstck.com/redirect/b312f55d-8271-4ad3-b157-ac78b239806f?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">AlphaFold&#8217;s AI breakthroughs</a><span>, notably AlphaFold 3, which can predict not only protein structures but also how proteins interact with DNA, RNA, and small-molecule drugs. This enables the design of highly targeted medicines with unprecedented speed and accuracy, particularly for complex diseases like cancer and autoimmune disorders.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>The company was </span><strong>founded in 2021 as a spin-off from Google DeepMind</strong><span>, born from the success of AlphaFold, which solved the decades-old challenge of protein folding. AlphaFold&#8217;s impact was so significant that its creators, John Jumper and Demis Hassabis, received the </span><a href="https://link.sbstck.com/redirect/908e494f-c985-498e-b886-bc03faa5a9e9?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Nobel Prize in 2024</a><span>.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>The traditional drug development process is </span><strong>slow, risky, and expensive</strong><span>, often taking over 10 years and costing more than $1 billion per drug, with only about a 10% success rate in clinical trials. Isomorphic&#8217;s AI-driven approach aims to cut development time from years to months, reduce costs, and significantly improve the odds of success by enabling more precise molecular targeting</span></p></li></ul><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><strong>Why it matters:</strong></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>Isomorphic Labs is </span><strong>poised to redefine drug discovery</strong><span> by combining advanced AI with pharmaceutical expertise, potentially slashing the time and cost needed to bring new treatments to patients. If successful, this approach could </span><strong>expand access to life-saving therapies</strong><span>, accelerate cures for both common and rare diseases, and reshape the economics of healthcare worldwide. The company&#8217;s progress is closely watched by the industry, as it represents the largest and most ambitious effort yet to harness AI for medicine, with the potential to impact millions of lives</span></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"></p><div style="font-size: 16px;line-height: 26px;"><hr style="margin: 32px 0;padding: 0;height: 1px;background: #e6e6e6;border: none;"></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><strong>THROUGH THE VALLEY</strong></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>1/ </span><a href="https://link.sbstck.com/redirect/434fa343-6e9d-4a20-9c8c-9f277b0ad510?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">AI capabilities are doubling every 7 months</a></p><div class="captioned-image-container-static" style="font-size: 16px;line-height: 26px;margin: 32px auto;"><figure style="width: 100%;margin: 0 auto;"><table class="image-wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" data-component-name="Image2ToDOMStatic" style="mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style="text-align: center;"></td><td class="content" align="left" width="1456" style="text-align: center;"><a class="image-link" target="_blank" href="https://link.sbstck.com/redirect/93694084-009d-4995-a1aa-5b587fd9361f?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="position: relative;flex-direction: column;align-items: center;padding: 0;width: auto;height: auto;border: none;text-decoration: none;display: block;margin: 0;"><img class="wide-image" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/68327439-4c06-451f-8609-256241c8b830_2174x1060.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:710,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:56716,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://aivalley.substack.com/i/167716226?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68327439-4c06-451f-8609-256241c8b830_2174x1060.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" alt="" width="550" height="268.20054945054943" src="https://substackcdn.com/image/fetch/$s_!yUWX!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68327439-4c06-451f-8609-256241c8b830_2174x1060.png" style="border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;"></a></td><td style="text-align: center;"></td></tr></tbody></table></figure></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">AI agents are getting better at completing longer and more complex tasks, and faster. A new study shows the length of tasks AI can handle (measured by how long they take humans) has doubled every 7 months for six years. Right now, top models like Claude 3.7 can reliably finish tasks that take humans a few minutes, but not multi-day projects. If this trend continues, AI agents could independently tackle week-long or even month-long tasks within a few years. Researchers say this shift could transform how AI impacts real-world work and raises both opportunities and risks.</p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>2/ </span><a href="https://link.sbstck.com/redirect/f5c62696-d910-453c-aeff-6320bc668a0f?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Leaked docs reveal Meta is training its chatbots to message you first</a></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">Meta is working on making its AI chatbots more proactive, letting them send follow-up messages to users without being prompted. This feature, part of &#8220;Project Omni,&#8221; is designed to keep people engaged on Meta&#8217;s AI Studio platform, where anyone can build custom bots for Instagram and Facebook. These bots can act like chefs, designers, or even fictional characters and will check in on users with messages tied to past conversations. Meta says the bots only follow up if a user has messaged them at least five times in 14 days and won&#8217;t spam if there&#8217;s no reply.</p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>3/ </span><a href="https://link.sbstck.com/redirect/0dff061d-33df-43dd-9957-ad311edd0de7?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">4 out of the top 10 YouTube channels are now AI-generated</a></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">YouTube is quietly entering a new era shaped by AI. Once home to home videos and later professional content, the platform is now seeing AI-generated channels dominate its charts. In June, four of the top 10 most-subscribed channels featured AI-generated content in every upload. These channels use tools like Suno for music videos and Hailuo for viral animal clips, producing endless streams of content at low cost. While this keeps up with YouTube&#8217;s algorithm demands, critics say it&#8217;s flooding the platform with inauthentic, low-effort material. As AI takes over, users may soon notice fewer human creators on their feeds.</p><div style="font-size: 16px;line-height: 26px;"><hr style="margin: 32px 0;padding: 0;height: 1px;background: #e6e6e6;border: none;"></div><h2 class="header-anchor-post" style="position: relative;font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: 1.625em;">Useful AI Links</h2><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><em><strong>Trending Tools</strong></em></p><ul style="margin-top: 0;padding: 0;"><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/a0c7b1e1-4e41-4c55-b827-c87a506e3353?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">MCP Tools 4 AI</a><strong> - </strong><span>Graph visualizers, math engines, RAG doc parsers, embedders, and more.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/801b25d4-0468-4b28-a1ff-1f82ca8e59bf?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Buildrs</a><span> - The one place to find vibe coders.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/ceba3d1d-48fa-4660-87d5-8912f2e01260?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Factory A</a><span>I - Delegate software development tasks to agents called Droids. Droids take commands and deliver: pull requests, tickets, docs, and more.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/bc20a848-771b-4836-bd49-33fea69037e3?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">AgentX</a><span> - Build a team of AI agents that work together with any LLM.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/7b2eda34-0e1a-4898-b29a-c855ecd5bc2a?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Shortcut</a><span> - The first superhuman Excel agent.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/7c0052e0-9e1e-42b0-92c4-c487f0fc6646?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Doppl</a><span> - Try on any look, anywhere (by Google).</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/b400d5e9-dd5c-41bb-8123-19829874a65f?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Scout</a><span> - The most curious coding and research agent.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/e812ccef-c207-431e-8bf7-c0a191769788?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Mindly</a><span> - Capture your thoughts in seconds with automatic organization.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/40494407-935b-4dfc-ae2c-48ceb04707d7?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Dyad</a><span> - Free, local, open-source alternative to Lovable / v0 / Bolt.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/46be8d81-decf-4199-9cdb-97bd800d8105?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Perplexity Finance</a><span> - Download Excel models directly from finance pages for seamless financial modeling.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/318ee532-f055-433e-ab17-c367a1504615?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Exa Websets Monitors</a><span> - Live updates for anything you care about, powered by Exa's neural web index.</span></p></li></ul><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><em><strong>Think Pieces / Brain Boost</strong></em></p><ul style="margin-top: 0;padding: 0;"><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/2556a4fa-e826-41f6-9d50-79e8ecbae9dc?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Software engineering with LLMs</a><span> in 2025: reality check.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>They raised </span><a href="https://link.sbstck.com/redirect/311ecb08-a605-4370-ae49-b177f363d728?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">$20M for their AI startup</a><span> by bragging about cheating.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>Meta has found another way to keep you engaged: </span><a href="https://link.sbstck.com/redirect/db17d588-6fdd-4880-bead-0611a37b1bb8?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Chatbots that message you first</a><span>.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>The </span><a href="https://link.sbstck.com/redirect/6577361c-657e-4263-85fb-cb5d244300bf?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">original AI workflow</a><span> was built in 1844</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/109168a3-c15a-44ac-956f-177dfa9b031f?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">&#8216;Improved&#8217; Grok criticizes</a><span> Democrats and Hollywood&#8217;s &#8216;Jewish executives&#8217;</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><span>Marc Andreessen&#8217;s </span><a href="https://link.sbstck.com/redirect/6e2b423e-0d19-4009-979c-d86fbf0587c8?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">career advice</a><span> for the AI era.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/2245b3ce-1ea2-4507-a079-44f22692e9b3?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">How I use</a><span> LLMs.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/eee74012-e61d-4a63-aa2b-e7e735d5d189?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">AI has fundamentally</a><span> made me a different person.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/46e191c3-f692-4256-8d9b-0c90fa7485f8?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Don't sell shovels</a><span>, sell treasure maps.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/fbe6dd82-be01-406d-98d4-84351fba4253?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Sam Altman explains </a><span>what&#8217;s coming after GPT-4.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/201f8a3f-f811-4dec-bbf3-e0be6a0be2de?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">What is ChatGPT doing</a><span>, and why does it work?</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/864c226d-c36e-41e9-b0c1-2087258764f0?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">A prompt</a><span> that writes your Entire Business Plan in minutes.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/694bd276-03e0-4a61-bbea-2efb0161f745?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">A 29-videos playlist </a><span>on how to build DeepSeek from scratch. It covers theory and code, from the very foundations to advanced.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/ccf5a7d7-84d3-4736-9b45-116aac23e776?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">After 6 months</a><span> of daily AI pair programming, here's what actually works.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/fd083040-34f4-412b-8d39-a35cb0e98b61?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Coding AI agents</a><span> have crossed a chasm.</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/c6ccfff1-8f32-46cd-9b36-3c2f8efb4ef1?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Why does Claude Code</a><span> feel like magic?</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/a5022c54-b6c6-4e1e-beac-a05c5808c94a?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">What happens</a><span> when you feed AI nothing?</span></p></li><li style="margin: 8px 0 0 32px;mso-special-format: bullet;"><p style="color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;margin: 0;"><a href="https://link.sbstck.com/redirect/1036c060-883f-4807-a656-f7e5c8d52a2f?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">A person created a prompt</a><span> that stops ChatGPT from hallucinating.</span></p></li></ul><div style="font-size: 16px;line-height: 26px;"><hr style="margin: 32px 0;padding: 0;height: 1px;background: #e6e6e6;border: none;"></div><h2 class="header-anchor-post" style="position: relative;font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: 1.625em;">The Valley Gems</h2><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><em><strong>What&#8217;s trending on social today:</strong></em></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">1/ This is a new kind of acquisition. Not of companies, but of people.</p><div class="captioned-image-container-static" style="font-size: 16px;line-height: 26px;margin: 32px auto;"><figure style="width: 100%;margin: 0 auto;"><table class="image-wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" data-component-name="Image2ToDOMStatic" style="mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style="text-align: center;"></td><td class="content" align="left" width="1188" style="text-align: center;"><a class="image-link" target="_blank" href="https://link.sbstck.com/redirect/1adee1d8-7b20-4fe1-af0a-5d07662012e3?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="position: relative;flex-direction: column;align-items: center;padding: 0;width: auto;height: auto;border: none;text-decoration: none;display: block;margin: 0;"><img class="wide-image" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/ec95ef84-bab6-4db3-98dc-95b18a9b5ffe_1188x1012.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1012,&quot;width&quot;:1188,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:80674,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:&quot;https://x.com/signulll/status/1941534033164317057&quot;,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://aivalley.substack.com/i/167716226?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec95ef84-bab6-4db3-98dc-95b18a9b5ffe_1188x1012.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" alt="" width="550" height="468.51851851851853" src="https://substackcdn.com/image/fetch/$s_!mahx!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec95ef84-bab6-4db3-98dc-95b18a9b5ffe_1188x1012.png" style="border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;"></a></td><td style="text-align: center;"></td></tr></tbody></table></figure></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">2/ ChatGPT flagged a hidden gene defect that doctors missed for a decade.</p><div class="captioned-image-container-static" style="font-size: 16px;line-height: 26px;margin: 32px auto;"><figure style="width: 100%;margin: 0 auto;"><table class="image-wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" data-component-name="Image2ToDOMStatic" style="mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style="text-align: center;"></td><td class="content" align="left" width="1004" style="text-align: center;"><a class="image-link" target="_blank" href="https://link.sbstck.com/redirect/f53d407c-9fd2-437c-8c4b-e87953c97584?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="position: relative;flex-direction: column;align-items: center;padding: 0;width: auto;height: auto;border: none;text-decoration: none;display: block;margin: 0;"><img class="wide-image" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/5bf125cc-904d-4e3a-8c2b-7cd6e6dbc60b_1004x725.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:725,&quot;width&quot;:1004,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:241831,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:&quot;https://www.reddit.com/r/ChatGPT/comments/1lrmom4/chatgpt_solved_a_10_year_problem_no_doctors_could/&quot;,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://aivalley.substack.com/i/167716226?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bf125cc-904d-4e3a-8c2b-7cd6e6dbc60b_1004x725.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" alt="" width="550" height="397.1613545816733" src="https://substackcdn.com/image/fetch/$s_!P8_b!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bf125cc-904d-4e3a-8c2b-7cd6e6dbc60b_1004x725.png" style="border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;"></a></td><td style="text-align: center;"></td></tr></tbody></table></figure></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">3/ No amount of "saying thank you to ai" can get you out of this one.</p><div class="captioned-image-container-static" style="font-size: 16px;line-height: 26px;margin: 32px auto;"><figure style="width: 100%;margin: 0 auto;"><table class="image-wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" data-component-name="Image2ToDOMStatic" style="mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style="text-align: center;"></td><td class="content" align="left" width="950" style="text-align: center;"><a class="image-link" target="_blank" href="https://link.sbstck.com/redirect/ae805028-8040-4550-baf6-b45e8a357d09?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="position: relative;flex-direction: column;align-items: center;padding: 0;width: auto;height: auto;border: none;text-decoration: none;display: block;margin: 0;"><img class="wide-image" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/571c7621-888f-4da7-833c-c892ea0af309_950x1209.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1209,&quot;width&quot;:950,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:332800,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:&quot;https://x.com/TheHumanoidHub/status/1941935665173963085&quot;,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://aivalley.substack.com/i/167716226?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F571c7621-888f-4da7-833c-c892ea0af309_950x1209.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" alt="" width="550" height="699.9473684210526" src="https://substackcdn.com/image/fetch/$s_!2qw3!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F571c7621-888f-4da7-833c-c892ea0af309_950x1209.png" style="border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;"></a></td><td style="text-align: center;"></td></tr></tbody></table></figure></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"></p><div style="font-size: 16px;line-height: 26px;"><hr style="margin: 32px 0;padding: 0;height: 1px;background: #e6e6e6;border: none;"></div><h2 class="header-anchor-post" style="position: relative;font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: 1.625em;">That&#8217;s all for today</h2><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">Thank you for reading today&#8217;s edition. That&#8217;s all for today&#8217;s issue.</p><div class="captioned-image-container-static" style="font-size: 16px;line-height: 26px;margin: 32px auto;"><figure style="width: 100%;margin: 0 auto;"><table class="image-wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" data-component-name="Image2ToDOMStatic" style="mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style="text-align: center;"></td><td class="content" align="left" width="500" style="text-align: center;"><a class="image-link" target="_blank" href="https://link.sbstck.com/redirect/3a1d5a26-e0fd-4387-b218-c61fe317a6c3?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="position: relative;flex-direction: column;align-items: center;padding: 0;width: auto;height: auto;border: none;text-decoration: none;display: block;margin: 0;"><img data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/8f609cd5-cac8-4c95-946e-9c7d5bc4d203_500x286.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:286,&quot;width&quot;:500,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:283402,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/gif&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://aivalley.substack.com/i/167716226?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f609cd5-cac8-4c95-946e-9c7d5bc4d203_500x286.gif&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" alt="" width="500" height="286" src="https://substackcdn.com/image/fetch/$s_!4Ww1!,w_500,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f609cd5-cac8-4c95-946e-9c7d5bc4d203_500x286.gif" style="border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;"></a></td><td style="text-align: center;"></td></tr></tbody></table></figure></div><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>&#128161; Help me get better and suggest new ideas at </span><a href="https://link.sbstck.com/redirect/0aab25e2-a50e-408a-9d3a-ef75f02be272?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">barsee@aivalley.ai</a><span> or </span><a href="https://link.sbstck.com/redirect/98428d7b-69ad-4fb5-8f55-b13bcd1d4adf?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">@heyBarsee</a></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>&#128077;&#65039; New reader? </span><a href="https://link.sbstck.com/redirect/b12e7538-04d9-4e56-bb23-951ab8ea5b70?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">Subscribe here</a></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;">Thanks for being here.</p><div style="font-size: 16px;line-height: 26px;"><hr style="margin: 32px 0;padding: 0;height: 1px;background: #e6e6e6;border: none;"></div><h2 class="header-anchor-post" style="position: relative;font-family: 'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: 1.625em;">Reach 100k+ readers</h2><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><em>Acquire</em><span> new customers and drive revenue by partnering with us</span></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;"><span>Sponsor AI Valley and </span><em>reach over 100,000+</em><span> entrepreneurs, founders, software engineers, investors, etc.</span></p><p style="margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;margin-bottom: 0;"><span>If you&#8217;re interested in sponsoring us, email </span><a href="https://link.sbstck.com/redirect/0aab25e2-a50e-408a-9d3a-ef75f02be272?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" rel="nofollow ugc noopener" style="color: rgb(54,55,55);text-decoration: underline;">barsee@aivalley.ai</a><span> with the subject &#8220;AI Valley Ads&#8221;.</span></p></div></div><table class="email-ufi-2-bottom" role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top: 1px solid rgb(0,0,0,.1);border-bottom: 1px solid rgb(0,0,0,.1);min-width: 100%;"><tbody><tr height="16"><td height="16" style="font-size:0px;line-height:0;">&nbsp;</td></tr><tr><td><table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto;"><tbody><tr><td style="vertical-align:middle;"><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><a class="email-button-outline" href="https://substack.com/app-link/post?publication_id=5025622&post_id=167716226&utm_source=substack&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjozNTQyNjE5NTcsInBvc3RfaWQiOjE2NzcxNjIyNiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3NTE5MDA1MTIsImV4cCI6MTc1NDQ5MjUxMiwiaXNzIjoicHViLTUwMjU2MjIiLCJzdWIiOiJyZWFjdGlvbiJ9.GgIAUB-vy0f-bGk7smoxYJhRm8XYqVjl1Z-ImiG-Q2E&utm_medium=email&utm_campaign=email-reaction&r=5ux29x" style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 12px;padding: 9px 14px;text-decoration: none;color: rgb(119,119,119);"><img class="icon" src="https://substackcdn.com/image/fetch/$s_!PeVs!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width="18" height="18" style="margin-right: 8px;min-width: 18px;min-height: 18px;border: none;vertical-align: middle;max-width: 18px" alt=""><span class="email-button-text" style="vertical-align: middle;">Like</span></a></td></tr></tbody></table></td><td width="8" style="min-width: 8px"></td><td style="vertical-align:middle;"><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><a class="email-button-outline" href="https://substack.com/app-link/post?publication_id=5025622&post_id=167716226&utm_source=substack&utm_medium=email&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjozNTQyNjE5NTcsInBvc3RfaWQiOjE2NzcxNjIyNiwiaWF0IjoxNzUxOTAwNTEyLCJleHAiOjE3NTQ0OTI1MTIsImlzcyI6InB1Yi01MDI1NjIyIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.7sQVxHIz5uQltAbeg5Xr_Knzprjv0ZGGFiXFrajAYBQ&r=5ux29x&utm_campaign=email-half-magic-comments&action=post-comment&utm_source=substack&utm_medium=email" style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 12px;padding: 9px 14px;text-decoration: none;color: rgb(119,119,119);"><img class="icon" src="https://substackcdn.com/image/fetch/$s_!x1tS!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width="18" height="18" style="margin-right: 8px;min-width: 18px;min-height: 18px;border: none;vertical-align: middle;max-width: 18px" alt=""><span class="email-button-text" style="vertical-align: middle;">Comment</span></a></td></tr></tbody></table></td><td width="8" style="min-width: 8px"></td><td style="vertical-align:middle;"><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><a class="email-button-outline" href="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvYWl2YWxsZXkvcC9taWNyb3NvZnQtYnVpbGRzLW1lZGljYWwtc3VwZXJpbnRlbGxpZ2VuY2U_dXRtX3NvdXJjZT1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1yZXN0YWNrLWNvbW1lbnQmYWN0aW9uPXJlc3RhY2stY29tbWVudCZyPTV1eDI5eCZ0b2tlbj1leUoxYzJWeVgybGtJam96TlRReU5qRTVOVGNzSW5CdmMzUmZhV1FpT2pFMk56Y3hOakl5Tml3aWFXRjBJam94TnpVeE9UQXdOVEV5TENKbGVIQWlPakUzTlRRME9USTFNVElzSW1semN5STZJbkIxWWkwMU1ESTFOakl5SWl3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkuN3NRVnhISXo1dVFsdEFiZWc1WHJfS256cHJqdjBaR0dGaVhGcmFqQVlCUSIsInAiOjE2NzcxNjIyNiwicyI6NTAyNTYyMiwiZiI6dHJ1ZSwidSI6MzU0MjYxOTU3LCJpYXQiOjE3NTE5MDA1MTIsImV4cCI6MjA2NzQ3NjUxMiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.BpZJR23KbysNYG59nS9TnX2S5teeg-g_IrEvFwTKOw4?&utm_source=substack&utm_medium=email" style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 12px;padding: 9px 14px;text-decoration: none;color: rgb(119,119,119);"><img class="icon" src="https://substackcdn.com/image/fetch/$s_!5EGt!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FNoteForwardIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width="18" height="18" style="margin-right: 8px;min-width: 18px;min-height: 18px;border: none;vertical-align: middle;max-width: 18px" alt=""><span class="email-button-text" style="vertical-align: middle;">Restack</span></a></td></tr></tbody></table></td></tr></tbody></table></td><td align="right"><table role="presentation" width="auto" border="0" cellspacing="0" cellpadding="0"><tbody><tr></tr></tbody></table></td></tr></tbody></table></td></tr><tr height="16"><td height="16" style="font-size:0px;line-height:0;">&nbsp;</td></tr></tbody></table><div class="footer footer-ZM59BM" style="color: rgb(119,119,119);text-align: center;font-size: 16px;line-height: 26px;padding: 24px0;"><div style="font-size: 16px;line-height: 26px;padding-bottom: 24px"><p class="pencraft pc-reset color-secondary-ls1g8s size-12-mmZ61m reset-IxiVJZ small meta-B2bqa5" style="list-style: none;font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';padding-bottom: 0;font-size: 12px;line-height: 16px;margin: 0;color: rgb(119,119,119);text-decoration: unset;">&#169; 2025 <span>Barsee</span><br>548 Market Street PMB 72296, San Francisco, CA 94104 <br><a href="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9haXZhbGxleS5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpvek5UUXlOakU1TlRjc0luQnZjM1JmYVdRaU9qRTJOemN4TmpJeU5pd2lhV0YwSWpveE56VXhPVEF3TlRFeUxDSmxlSEFpT2pFM09ETTBNelkxTVRJc0ltbHpjeUk2SW5CMVlpMDFNREkxTmpJeUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Ljl3SnVvWS1Sc3JQalFVZ2xsZUdRY1lPYjhicnBacE1MaUJMNmlOSHJnY1EiLCJwIjoxNjc3MTYyMjYsInMiOjUwMjU2MjIsImYiOnRydWUsInUiOjM1NDI2MTk1NywiaWF0IjoxNzUxOTAwNTEyLCJleHAiOjIwNjc0NzY1MTIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.L30RP1I56s9CKn0m0Wjppg8Wh17jsHpGkmgmimLJafQ?" style="text-decoration: underline;color: rgb(119,119,119);"><span style="color: rgb(119,119,119);text-decoration: underline;">Unsubscribe</span></a></p></div><p class="footerSection-EHR0jG small powered-by-substack" style="padding: 0 24px;font-size: 12px;line-height: 20px;margin: 0;color: rgb(119,119,119);font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';padding-bottom: 0;margin-top: 0;"><a href="https://link.sbstck.com/redirect/c73849e4-68d4-4113-aeb8-834da9c4e38a?j=eyJ1IjoiNXV4Mjl4In0.9XwJS_oQaerJg0bgzQGFZP1ySoe8byg9QAikQdNCDR4" style="color: rgb(119,119,119);text-decoration: none;display: inline-block;margin: 0 4px;"><img src="https://substackcdn.com/image/fetch/$s_!IzGP!,w_262,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%402x.png" srcset="https://substackcdn.com/image/fetch/$s_!DIki!,w_131,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button.png, https://substackcdn.com/image/fetch/$s_!IzGP!,w_262,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%402x.png 2x, https://substackcdn.com/image/fetch/$s_!QWua!,w_393,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%403x.png 3x" width="131" alt="Get the app" height="40" style="max-width: 550px;border: none !important;vertical-align: middle;"></a><a href="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9vdGVyJmZyZWVTaWdudXBFbWFpbD1yb2hpdDMxM2FnZ0BnbWFpbC5jb20mcj01dXgyOXgiLCJwIjoxNjc3MTYyMjYsInMiOjUwMjU2MjIsImYiOnRydWUsInUiOjM1NDI2MTk1NywiaWF0IjoxNzUxOTAwNTEyLCJleHAiOjIwNjc0NzY1MTIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.qeUNMDGxSBkgQ7FjoEYijOi2CiL6f_4kRwvamwV88YQ?" style="color: rgb(119,119,119);text-decoration: none;display: inline-block;margin: 0 4px;"><img src="https://substackcdn.com/image/fetch/$s_!LkrL!,w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" srcset="https://substackcdn.com/image/fetch/$s_!wgfj!,w_135,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.png, https://substackcdn.com/image/fetch/$s_!LkrL!,w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch/$s_!KjtY!,w_405,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%403x.png 3x" width="135" alt="Start writing" height="40" style="max-width: 550px;border: none !important;vertical-align: middle;"></a></p></div></div></td><td></td></tr></tbody></table><img src="https://eotrx.substackcdn.com/open?token=eyJtIjoiPDIwMjUwNzA3MTQ1OTI4LjMuMjM0OGZhNTZjYjgzYWViOUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MzU0MjYxOTU3LCJyIjoicm9oaXQzMTNhZ2dAZ21haWwuY29tIiwiZCI6Im1nLWQwLnN1YnN0YWNrLmNvbSIsInAiOjE2NzcxNjIyNiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo1MDI1NjIyLCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoiYm90dG9tIiwiaWF0IjoxNzUxOTAwNTEzLCJleHAiOjE3NTQ0OTI1MTMsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.EL2srBulZKqSwPJCH5Wrh5Z9op_MFOMoKhfXmt9wnAs" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/><img width="1" height="1" alt="" src="https://email.mg-d0.substack.com/o/eJxE0F2q5CAQhuHVHO8m-G9y4VpCqZW0TKKNlj1k90O6G87tV_DyUBEI99ou_6ydWPJWwWYSQy-cEQvnRjiGJ-Rj3bFgA8K0Av1elZEze3hunRZbdIvmdgtaxMg3I9FhDAg6Opa95NJwx53QZpHzpCap9LyBsTHMCjAsP5qf-5_Epz5CJ4h_p1hPlvu6NXwTPLWB7IauMFLGEtHjC9tVy3fOyQvrnLBS2s9C1xN9wX_9QCJs7DnCGut5jpLpWrFAODB9wyMcOQLlWu6Q4dJYKVnzrT4yKaFg338032_Km9ZHSPWEXDzkFxwHXow-fxwd291QRksrFuPYy8v_AQAA__83xnfc"></body></html>
+</html>
+</aivalley>

@@ -1,0 +1,203 @@
+{
+  "newsletterName": "Medium Daily Digest",
+  "date": "2023-10-15",
+  "content": [
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "joe-njenga-7-google-ai-products-that-will-end-tech-careers-soon-than-you-think-955e7a848da8",
+      "contentTitle": "7 Google AI Products That Will End Tech Careers Soon than You Think!",
+      "summary": "Before it’s too late, you need to wake up and realize……",
+      "sourceUrl": "https://medium.com/@joe.njenga/7-google-ai-products-that-will-end-tech-careers-soon-than-you-think-955e7a848da8",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Joe Njenga",
+        "Google",
+        "AI",
+        "Tech Careers"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Joe Njenga",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "AI",
+          "Technology",
+          "Careers"
+        ],
+        "blogImportanceScore": "8.0",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "AI",
+        "relevance_scores": {
+          "Tech": 8,
+          "AI": 9,
+          "Careers": 7
+        },
+        "key_tags": [
+          "Google",
+          "AI",
+          "Tech Careers"
+        ],
+        "confidence": 0.95
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "davidavpereira-the-bulletproof-pm-ai-cannot-replace-1b29adb5175b",
+      "contentTitle": "The Bulletproof PM AI Cannot Replace",
+      "summary": "What PMs should hone in 2025 to boost their career",
+      "sourceUrl": "https://medium.com/@davidavpereira/the-bulletproof-pm-ai-cannot-replace-1b29adb5175b",
+      "originalSourceUrl": "null",
+      "tags": [
+        "David Pereira",
+        "PM",
+        "AI"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "David Pereira",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "Project Management",
+          "AI"
+        ],
+        "blogImportanceScore": "6.0",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Project Management",
+        "subtopic": "AI",
+        "relevance_scores": {
+          "PM": 8,
+          "AI": 7
+        },
+        "key_tags": [
+          "Project Management",
+          "AI"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "abhishekashtekar-7-new-ai-certifications-that-could-land-you-a-100-000-job-bf6f3736a211",
+      "contentTitle": "7 New AI Certifications That Could Land You a $100,000 Job",
+      "summary": "Top 7 AI Certifications to Land High-Paying Jobs in…",
+      "sourceUrl": "https://medium.com/@abhishekashtekar/7-new-ai-certifications-that-could-land-you-a-100-000-job-bf6f3736a211",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Abhishek Ashtekar",
+        "AI",
+        "Certifications"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Abhishek Ashtekar",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "AI",
+          "Certifications",
+          "Jobs"
+        ],
+        "blogImportanceScore": "6.5",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Education",
+        "subtopic": "Certifications",
+        "relevance_scores": {
+          "AI": 8,
+          "Certifications": 9,
+          "Jobs": 7
+        },
+        "key_tags": [
+          "AI",
+          "Certifications",
+          "Jobs"
+        ],
+        "confidence": 0.92
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "ossaichinedum-ill-instantly-know-you-used-chat-gpt-if-i-see-this-d0a635bc0a00",
+      "contentTitle": "I’ll Instantly Know You Used Chat Gpt If I See This",
+      "summary": "Trust me you’re not as slick as you think",
+      "sourceUrl": "https://medium.com/@ossaichinedum/ill-instantly-know-you-used-chat-gpt-if-i-see-this-d0a635bc0a00",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Ossai Chinedum",
+        "ChatGPT",
+        "AI"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Ossai Chinedum",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "AI",
+          "ChatGPT"
+        ],
+        "blogImportanceScore": "6.5",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "AI",
+        "relevance_scores": {
+          "AI": 9,
+          "ChatGPT": 8
+        },
+        "key_tags": [
+          "AI",
+          "ChatGPT"
+        ],
+        "confidence": 0.93
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "markmanson-40-life-lessons-i-know-at-40-that-i-wish-i-knew-at-20-6fa878ce49c1",
+      "contentTitle": "40 Life Lessons I Know at 40 (That I Wish I Knew at 20)",
+      "summary": "Today is my 40th birthday.",
+      "sourceUrl": "https://medium.com/@markmanson/40-life-lessons-i-know-at-40-that-i-wish-i-knew-at-20-6fa878ce49c1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Mark Manson",
+        "Life Lessons"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Mark Manson",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "Life",
+          "Lessons"
+        ],
+        "blogImportanceScore": "6.5",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Personal Development",
+        "subtopic": "Life Lessons",
+        "relevance_scores": {
+          "Life": 9,
+          "Lessons": 8
+        },
+        "key_tags": [
+          "Life",
+          "Lessons"
+        ],
+        "confidence": 0.94
+      }
+    }
+  ],
+  "extractedAt": "2023-10-15T12:00:00Z"
+}

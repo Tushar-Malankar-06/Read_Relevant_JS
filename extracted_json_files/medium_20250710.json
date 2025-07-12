@@ -1,0 +1,133 @@
+{
+  "newsletterName": "Medium Daily Digest",
+  "date": "2023-10-15",
+  "content": [
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "tariibaba-paying-for-software-is-stupid-20-open-source-saas-tools-to-destroy-your-saas-bills-3db54439e097",
+      "contentTitle": "Paying for software is stupid: 20 open-source SaaS tools to destroy your SaaS…",
+      "summary": "SaaS is everywhere. Subscription costs add up fast…",
+      "sourceUrl": "https://medium.com/@tariibaba/paying-for-software-is-stupid-20-open-source-saas-tools-to-destroy-your-saas-bills-3db54439e097?source=email-8d1aa8f687a2-1752115436983-digest.reader-266711b938df-3db54439e097----0-73------------------312d2e40_3030_421b_a0fc_8de8642e7ba8-1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Tari Ibaba",
+        "Coding Beauty",
+        "SaaS",
+        "Open Source",
+        "Software"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Tari Ibaba",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "SaaS",
+          "Open Source",
+          "Software"
+        ],
+        "blogImportanceScore": "7.5",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "Software",
+        "relevance_scores": {
+          "Developer": 8,
+          "Tech Enthusiast": 7
+        },
+        "key_tags": [
+          "SaaS",
+          "Open Source",
+          "Software"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "jvroig-picard-testing-what-llms-can-do-not-what-theyve-seen-e9b9f7567178",
+      "contentTitle": "PICARD: Testing What LLMs Can Do, Not What They’ve Seen",
+      "summary": "Finally, evals that actually mean something in the…",
+      "sourceUrl": "https://medium.com/@jvroig/picard-testing-what-llms-can-do-not-what-theyve-seen-e9b9f7567178?source=email-8d1aa8f687a2-1752115436983-digest.reader-8993e01dcfd3-e9b9f7567178----1-102------------------312d2e40_3030_421b_a0fc_8de8642e7ba8-1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "JV Roig",
+        "Data Science Collective",
+        "LLMs",
+        "AI",
+        "Testing"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "JV Roig",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "LLMs",
+          "AI",
+          "Testing"
+        ],
+        "blogImportanceScore": "6.0",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Artificial Intelligence",
+        "subtopic": "Machine Learning",
+        "relevance_scores": {
+          "Data Scientist": 9,
+          "AI Researcher": 8
+        },
+        "key_tags": [
+          "LLMs",
+          "AI",
+          "Testing"
+        ],
+        "confidence": 0.95
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "codingplainenglish-he-rewrote-everything-in-rust-then-fired-the-whole-team-edd057824799",
+      "contentTitle": "He Rewrote Everything in Rust — Then Fired the Whole Team",
+      "summary": "A CTO’s bold bet on Rust, performance dreams, and a…",
+      "sourceUrl": "https://medium.com/@codingplainenglish/he-rewrote-everything-in-rust-then-fired-the-whole-team-edd057824799?source=email-8d1aa8f687a2-1752115436983-digest.reader--edd057824799----2-73------------------312d2e40_3030_421b_a0fc_8de8642e7ba8-1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Abhinav",
+        "Rust",
+        "CTO",
+        "Performance",
+        "Software Development"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Abhinav",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "Rust",
+          "CTO",
+          "Performance"
+        ],
+        "blogImportanceScore": "8.0",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Software Development",
+        "subtopic": "Programming Languages",
+        "relevance_scores": {
+          "Developer": 9,
+          "CTO": 8
+        },
+        "key_tags": [
+          "Rust",
+          "CTO",
+          "Performance"
+        ],
+        "confidence": 0.92
+      }
+    }
+  ],
+  "extractedAt": "2023-10-15T12:00:00Z"
+}

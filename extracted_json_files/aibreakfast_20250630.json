@@ -1,0 +1,366 @@
+{
+  "newsletterName": "AI Breakfast",
+  "date": "2025-06-30",
+  "content": [
+    {
+      "segment": "brief",
+      "contentType": "news",
+      "contentId": null,
+      "contentTitle": "Meta Poaching OpenAI Talent",
+      "summary": "Meta is aggressively hiring top researchers from OpenAI, causing a talent war between the two companies.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "Meta",
+        "OpenAI",
+        "talent war",
+        "AI",
+        "hiring"
+      ],
+      "language": "English",
+      "metaData": {
+        "newsType": null,
+        "industry": null,
+        "companyMentioned": [
+          "Meta",
+          "OpenAI"
+        ],
+        "geographicFocus": null,
+        "newsImportanceScore": null,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Business",
+        "subtopic": "Talent Acquisition",
+        "relevance_scores": {
+          "AI Researcher": 9,
+          "HR Professional": 8,
+          "Tech Executive": 7
+        },
+        "key_tags": [
+          "Meta",
+          "OpenAI",
+          "talent war"
+        ],
+        "confidence": 0.95
+      }
+    },
+    {
+      "segment": "brief",
+      "contentType": "event",
+      "contentId": null,
+      "contentTitle": "Robot Soccer Tournament",
+      "summary": "A robot soccer tournament in China showcased advancements in AI, with fully autonomous humanoid robots participating.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "robotics",
+        "AI",
+        "China",
+        "tournament",
+        "autonomous"
+      ],
+      "language": "English",
+      "metaData": {
+        "eventType": "Competition",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "Robotics",
+        "relevance_scores": {
+          "AI Enthusiast": 8,
+          "Robotics Engineer": 9,
+          "Event Organizer": 6
+        },
+        "key_tags": [
+          "robotics",
+          "AI",
+          "tournament"
+        ],
+        "confidence": 0.92
+      }
+    },
+    {
+      "segment": "brief",
+      "contentType": "news",
+      "contentId": null,
+      "contentTitle": "Runway ML’s Video Game Generator",
+      "summary": "Runway is launching Game Worlds, a platform for creating AI-powered text adventure games with generated visuals.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "Runway",
+        "AI",
+        "video games",
+        "Game Worlds",
+        "platform"
+      ],
+      "language": "English",
+      "metaData": {
+        "newsType": null,
+        "industry": "Gaming",
+        "companyMentioned": [
+          "Runway"
+        ],
+        "geographicFocus": null,
+        "newsImportanceScore": null,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "Gaming",
+        "relevance_scores": {
+          "Game Developer": 9,
+          "AI Enthusiast": 8,
+          "Tech Entrepreneur": 7
+        },
+        "key_tags": [
+          "Runway",
+          "AI",
+          "video games"
+        ],
+        "confidence": 0.93
+      }
+    },
+    {
+      "segment": "brief",
+      "contentType": "quickNews",
+      "contentId": null,
+      "contentTitle": "5 New AI Tools",
+      "summary": "A list of five new AI-powered tools from around the web, including Byte Rover and MyLens.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "AI tools",
+        "technology",
+        "innovation",
+        "software",
+        "development"
+      ],
+      "language": "English",
+      "metaData": {
+        "listOfLinks": [],
+        "oneLiners": [],
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "Software",
+        "relevance_scores": {
+          "Software Developer": 8,
+          "Tech Enthusiast": 7,
+          "Product Manager": 6
+        },
+        "key_tags": [
+          "AI tools",
+          "technology",
+          "innovation"
+        ],
+        "confidence": 0.91
+      }
+    },
+    {
+      "segment": "brief",
+      "contentType": "research",
+      "contentId": null,
+      "contentTitle": "Latest AI Research Papers",
+      "summary": "A collection of the latest AI research papers, including topics like reinforcement learning and agentic search.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "AI research",
+        "papers",
+        "reinforcement learning",
+        "agentic search",
+        "technology"
+      ],
+      "language": "English",
+      "metaData": {
+        "researchLinks": [],
+        "caseStudy": null,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Research",
+        "subtopic": "Artificial Intelligence",
+        "relevance_scores": {
+          "AI Researcher": 10,
+          "Data Scientist": 9,
+          "Academic": 8
+        },
+        "key_tags": [
+          "AI research",
+          "papers",
+          "technology"
+        ],
+        "confidence": 0.94
+      }
+    },
+    {
+      "segment": "full_article",
+      "contentType": "news",
+      "contentId": "open-a-is-talent-war-with-meta-trig",
+      "contentTitle": "OpenAI’s Talent War With Meta Triggers Shutdown and Compensation Reset",
+      "summary": "OpenAI is facing a talent war as Meta hires its top researchers, prompting OpenAI to recalibrate compensation and implement a company-wide shutdown to retain talent.",
+      "sourceUrl": "https://link.mail.beehiiv.com/ss/c/u001.Dt9qNH9h7te94TPDub9Copaj3oBnUuGyGvlNSZD-ep5UlvJjn0NhzMfwhTjKMDz55YAzowAJLp3MBEwlSbxMI1LzMo4rG4lFXN5KZKS9gjvVtUdPuFMqvqilt6MMABI770jSnminkFEH8-t4QMIup4h0nfVL667evvbnkjo49XwpccsYaWhNGWycKNeFRxg7ndtB5I2SjgEbIdzE0DzFiOK7z0FpH8h_l1SV1Xi1_hWF1RQVzjZ6Pa37gN3b-AxSXXRM7HG7fORcqX6s2-sOIFPnj-Qrp9OpD3mAgfP2TheQ-7ochY7IQGtm2zpd_F8NG9OoougCLkVjEyO2jfv5gg/4hs/D55S6woyRhez7VvgKH8HrA/h8/h001.nloGqd5M7-3Rtsom886tzVOiRXZOxWvbjHrhoLqAxOQ",
+      "originalSourceUrl": null,
+      "tags": [
+        "OpenAI",
+        "Meta",
+        "talent war",
+        "AI",
+        "compensation"
+      ],
+      "language": "English",
+      "metaData": {
+        "newsType": "Corporate",
+        "industry": "Technology",
+        "companyMentioned": [
+          "OpenAI",
+          "Meta"
+        ],
+        "geographicFocus": "Global",
+        "newsImportanceScore": 8,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Business",
+        "subtopic": "Corporate Strategy",
+        "relevance_scores": {
+          "AI Researcher": 9,
+          "HR Professional": 8,
+          "Tech Executive": 9
+        },
+        "key_tags": [
+          "OpenAI",
+          "Meta",
+          "talent war"
+        ],
+        "confidence": 0.96
+      }
+    },
+    {
+      "segment": "full_article",
+      "contentType": "news",
+      "contentId": "clumsy-robot-soccer-match-marks-lea",
+      "contentTitle": "Clumsy Robot Soccer Match Marks Leap in Embodied AI",
+      "summary": "In Beijing, autonomous humanoid robots participated in a soccer match, showcasing advancements in AI operating in real-time physical environments.",
+      "sourceUrl": "https://link.mail.beehiiv.com/ss/c/u001.5eFcgNknTk209cd0CueGjNUraoYY-t2-L0GO662yHhp31bbPyglXIqXU7A47J0UIjwUnoWv8Tm_e9qyfPNU8RTFviLZ3oC0W-vMJpq0bM2VdkShdUjmCS6veAZ3q6AS7USe884Ou2Hdw2PXSz2Li7GHOyPDDAHZwQJDkmSPcDVosX_ahckY4dVcxtEQo5jTmJUBg7KM7HsOfQLQz7Z9EZ_SuHOTWLXlBM0X41KgD69nbBEZtSvkqe6DhUoYecD9DjhUerhWRy6T3vThgPsfPsA/4hs/D55S6woyRhez7VvgKH8HrA/h18/h001.OgCPEPgmZL4eF-cXdKoyfQAuQ52RKKuTxE2Yp-3-aF0",
+      "originalSourceUrl": null,
+      "tags": [
+        "robotics",
+        "AI",
+        "China",
+        "autonomous",
+        "soccer"
+      ],
+      "language": "English",
+      "metaData": {
+        "newsType": "Event",
+        "industry": "Robotics",
+        "companyMentioned": [
+          "Booster Robotics"
+        ],
+        "geographicFocus": "China",
+        "newsImportanceScore": 7,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "Robotics",
+        "relevance_scores": {
+          "Robotics Engineer": 9,
+          "AI Enthusiast": 8,
+          "Event Organizer": 7
+        },
+        "key_tags": [
+          "robotics",
+          "AI",
+          "autonomous"
+        ],
+        "confidence": 0.94
+      }
+    },
+    {
+      "segment": "full_article",
+      "contentType": "news",
+      "contentId": "runway-is-going-to-let-people-gener",
+      "contentTitle": "Runway is going to let people generate video games with AI",
+      "summary": "Runway is launching Game Worlds, a platform for creating AI-powered text adventure games, allowing users to generate visuals and narratives without coding.",
+      "sourceUrl": "https://link.mail.beehiiv.com/ss/c/u001.4ScaUVsovUroL2rqHMeB1EMp_oi0Kiv6o5l4lowUQHopeXR1DATU4EQBaeaFWTd8klC8FxOHKgGfv2UQLT58XeiF_x_NSWlL4JcFj8A8bJKVN-EtlwpN6S0bc6mfdsgzK9u01C5lalcU22O0R2EGR2u-GeWAoEHBT58VB3TtoahOQfuSkwURWVoCP3g4KQGUBcn_UA3vH2Ji8iHPHMADbmbeK2xxpKcz_zuOWp6VIXSerBV0hLu9e6ZGQ4ZSrr0d/4hs/D55S6woyRhez7VvgKH8HrA/h21/h001.KEkDGO0iia8HWD4lM-Rzipav6AbK1T0i8111e0F66rs",
+      "originalSourceUrl": null,
+      "tags": [
+        "Runway",
+        "AI",
+        "video games",
+        "Game Worlds",
+        "platform"
+      ],
+      "language": "English",
+      "metaData": {
+        "newsType": "Product Launch",
+        "industry": "Gaming",
+        "companyMentioned": [
+          "Runway"
+        ],
+        "geographicFocus": "Global",
+        "newsImportanceScore": 8,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "Gaming",
+        "relevance_scores": {
+          "Game Developer": 9,
+          "AI Enthusiast": 8,
+          "Tech Entrepreneur": 7
+        },
+        "key_tags": [
+          "Runway",
+          "AI",
+          "video games"
+        ],
+        "confidence": 0.95
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "quickNews",
+      "contentId": null,
+      "contentTitle": "China's biggest public AI drop since DeepSeek, Baidu's open source Ernie, is about to hit the market",
+      "summary": "Baidu is preparing to release Ernie, an open-source AI model, marking a significant public AI release in China.",
+      "sourceUrl": "https://link.mail.beehiiv.com/ss/c/u001.5eFcgNknTk209cd0CueGjL5x2CcvGHSJMHWazDoIgslsYa_wcwUk8lEwPfq9qurLw421VKr2_8IQwELHsPeuAo5OpaxNNC800AM9dDI5qfHqS4lrZHB_hBn2z7SBMC5zY-DuwtrXxdTdmj7qB9TUzezE7Jvo7yweuSOGD3WLcnaM_W62ma-gKdtuslLSzNqLaQpvtk3jqsxKvv-AAIDSbKqwP1O5zavzlChzscFpEFv-2IZR2MS17Q6xzl8nTyFucp9QY4ygAR2zvigs2bJVypcHoJvifMR6T14ZXyIIBxmme4SEAYtNxJbzFjk_fBwXB7nndDunyGlcFx53wNtrUk3abLum3oKAGRaB1FE9PII/4hs/D55S6woyRhez7VvgKH8HrA/h27/h001.rvaDzQqiguAUAvnQBr4iv79oE0hq53kDiVaiqShoKoQ",
+      "originalSourceUrl": null,
+      "tags": [
+        "Baidu",
+        "AI",
+        "Ernie",
+        "open source",
+        "China"
+      ],
+      "language": "English",
+      "metaData": {
+        "listOfLinks": [],
+        "oneLiners": [],
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Technology",
+        "subtopic": "Artificial Intelligence",
+        "relevance_scores": {
+          "AI Researcher": 8,
+          "Tech Enthusiast": 7,
+          "Software Developer": 6
+        },
+        "key_tags": [
+          "Baidu",
+          "AI",
+          "Ernie"
+        ],
+        "confidence": 0.92
+      }
+    }
+  ],
+  "extractedAt": "2023-10-06T12:00:00Z"
+}

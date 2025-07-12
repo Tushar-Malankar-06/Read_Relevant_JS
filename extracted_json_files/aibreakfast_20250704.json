@@ -1,0 +1,377 @@
+{
+  "newsletterName": "AI Breakfast",
+  "date": "2025-07-04",
+  "content": [
+    {
+      "segment": "brief",
+      "contentType": "quickNews",
+      "contentId": null,
+      "contentTitle": "OpenAI Denies Token, Gets Major Oracle Power",
+      "summary": "OpenAI has secured 4.5 GW of dedicated capacity from Oracle to power its Stargate AI systems, part of a $30B/year cloud commitment. Concurrently, OpenAI disavowed 'OpenAI tokens' launched on Robinhood, calling them unaffiliated and unauthorized.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "OpenAI",
+        "Oracle",
+        "AI",
+        "tokens",
+        "Robinhood"
+      ],
+      "language": "English",
+      "metaData": {
+        "listOfLinks": [],
+        "oneLiners": [],
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "AI Infrastructure",
+        "subtopic": "Cloud Computing",
+        "relevance_scores": {
+          "AI Researcher": 8,
+          "Tech Executive": 9,
+          "Investor": 7
+        },
+        "key_tags": [
+          "OpenAI",
+          "Oracle",
+          "AI",
+          "tokens",
+          "Robinhood"
+        ],
+        "confidence": 0.95
+      }
+    },
+    {
+      "segment": "brief",
+      "contentType": "quickNews",
+      "contentId": null,
+      "contentTitle": "AI Agents Have Hit A New Gear",
+      "summary": "A new wave of agentic tools has emerged, replacing manual workflows with autonomous AI execution. These tools include HeyGen's Video Agent, Replit's upgraded Dev Agent, and Genspark's AI Docs.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "AI Agents",
+        "Automation",
+        "HeyGen",
+        "Replit",
+        "Genspark"
+      ],
+      "language": "English",
+      "metaData": {
+        "listOfLinks": [],
+        "oneLiners": [],
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "AI Tools",
+        "subtopic": "Automation",
+        "relevance_scores": {
+          "AI Developer": 9,
+          "Tech Enthusiast": 8,
+          "Content Creator": 7
+        },
+        "key_tags": [
+          "AI Agents",
+          "Automation",
+          "HeyGen",
+          "Replit",
+          "Genspark"
+        ],
+        "confidence": 0.92
+      }
+    },
+    {
+      "segment": "brief",
+      "contentType": "quickNews",
+      "contentId": null,
+      "contentTitle": "Meta Poaches SSI CEO After Failed Buyout",
+      "summary": "Meta has hired Daniel Gross, co-founder of Superintelligence Inc. (SSI), to lead its new superintelligence division after a failed attempt to acquire SSI for $32 billion.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "Meta",
+        "SSI",
+        "Superintelligence",
+        "Daniel Gross",
+        "Acquisition"
+      ],
+      "language": "English",
+      "metaData": {
+        "listOfLinks": [],
+        "oneLiners": [],
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Corporate Moves",
+        "subtopic": "Acquisitions",
+        "relevance_scores": {
+          "Tech Executive": 9,
+          "Investor": 8,
+          "AI Researcher": 7
+        },
+        "key_tags": [
+          "Meta",
+          "SSI",
+          "Superintelligence",
+          "Daniel Gross",
+          "Acquisition"
+        ],
+        "confidence": 0.93
+      }
+    },
+    {
+      "segment": "brief",
+      "contentType": "quickNews",
+      "contentId": null,
+      "contentTitle": "5 New AI Tools",
+      "summary": "A selection of new AI-powered tools includes create-api.dev, LLM Gateway, AutoCoder, OpenMemory Chrome Extension, and a0.dev, each offering unique functionalities for developers and users.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "AI Tools",
+        "Development",
+        "create-api.dev",
+        "LLM Gateway",
+        "AutoCoder"
+      ],
+      "language": "English",
+      "metaData": {
+        "listOfLinks": [],
+        "oneLiners": [],
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "AI Tools",
+        "subtopic": "Development",
+        "relevance_scores": {
+          "AI Developer": 9,
+          "Tech Enthusiast": 8,
+          "Software Engineer": 7
+        },
+        "key_tags": [
+          "AI Tools",
+          "Development",
+          "create-api.dev",
+          "LLM Gateway",
+          "AutoCoder"
+        ],
+        "confidence": 0.91
+      }
+    },
+    {
+      "segment": "brief",
+      "contentType": "quickNews",
+      "contentId": null,
+      "contentTitle": "Latest AI Research Papers",
+      "summary": "Recent AI research papers cover topics such as math reasoning in LLMs, Kwai Keye-VL, LongAnimation, LangScene-X, and Skywork-Reward-V2, showcasing advancements in AI capabilities.",
+      "sourceUrl": null,
+      "originalSourceUrl": null,
+      "tags": [
+        "AI Research",
+        "LLM",
+        "Math Reasoning",
+        "Animation",
+        "3D Scenes"
+      ],
+      "language": "English",
+      "metaData": {
+        "listOfLinks": [],
+        "oneLiners": [],
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "AI Research",
+        "subtopic": "Papers",
+        "relevance_scores": {
+          "AI Researcher": 10,
+          "Academic": 9,
+          "Tech Enthusiast": 7
+        },
+        "key_tags": [
+          "AI Research",
+          "LLM",
+          "Math Reasoning",
+          "Animation",
+          "3D Scenes"
+        ],
+        "confidence": 0.94
+      }
+    },
+    {
+      "segment": "full_article",
+      "contentType": "news",
+      "contentId": "open-ai-locks-45-gw-oracle-buildout",
+      "contentTitle": "OpenAI Locks 4.5 GW Oracle Buildout, Denies Robinhood Token Ties",
+      "summary": "OpenAI is scaling compute and tightening control over its brand and data pipelines. It has secured 4.5 GW of dedicated capacity from Oracle to power its Stargate AI systems, part of a $30B/year cloud commitment. Concurrently, OpenAI disavowed 'OpenAI tokens' launched on Robinhood, calling them unaffiliated and unauthorized.",
+      "sourceUrl": "https://link.mail.beehiiv.com/ss/c/u001.Dt9qNH9h7te94TPDub9Cou9XWPoLd0Ogpy5rQal1lrdhIlDtXiS9pdC4nec6DyF7UeqFo0vymWkNK9YdH4GJjFd-gZcESLYAUue8n_qxCJy-TYe5582h9qFV41vU6dNSd9cbUUSk5SRQsytwU90qFRkyE4u-Q9xJYdO8guVjhl9QbJGpHwiPBI1l2mfATUFOqthDIM1ry2J1kd7hzcqMK5LCOvAjoVWfEBNsU0sKT4tpA3nhyaM9qTi_pONmgJrS_OQ6yPRqyPYeGYdMOmARHyCk3xtY0qqCWukQqsiS9q47rKKNFn1FnFSqQZqGV92hvVscIUHcBUEPZ3mHSa5IMA/4hw/4jT0208oQ_SE7iawg731mg/h8/h001.MO4vs22HYsxJAXF0aWrG-axEYo1aw4VqBu10jcGVHaE",
+      "originalSourceUrl": null,
+      "tags": [
+        "OpenAI",
+        "Oracle",
+        "AI",
+        "tokens",
+        "Robinhood"
+      ],
+      "language": "English",
+      "metaData": {
+        "newsType": "Corporate",
+        "industry": "Technology",
+        "companyMentioned": [
+          "OpenAI",
+          "Oracle"
+        ],
+        "geographicFocus": "USA",
+        "newsImportanceScore": 8,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "AI Infrastructure",
+        "subtopic": "Cloud Computing",
+        "relevance_scores": {
+          "AI Researcher": 8,
+          "Tech Executive": 9,
+          "Investor": 7
+        },
+        "key_tags": [
+          "OpenAI",
+          "Oracle",
+          "AI",
+          "tokens",
+          "Robinhood"
+        ],
+        "confidence": 0.95
+      }
+    },
+    {
+      "segment": "full_article",
+      "contentType": "news",
+      "contentId": "ai-agents-hit-a-new-gear-running-en",
+      "contentTitle": "AI Agents hit a new gear, running end-to-end and full stack with no humans needed",
+      "summary": "A new wave of agentic tools dropped this week, replacing manual workflows with autonomous AI execution. HeyGen’s Video Agent handles full video production from a sentence or file, while Replit’s upgraded Dev Agent adds long-range reasoning and high-context understanding.",
+      "sourceUrl": "https://link.mail.beehiiv.com/ss/c/u001.SkgAtHZPmfFvsooqk90vOtkTqQuM1palMQZ-h3oKYsNS7bXARDWj13IrG0Evoh_0SUjLD3ehKJJjkp8ZdyldT4k21ILJ_qedbK_vCNi_aox1Roob-WWcUFoJCbXGM0073X0Rb2zjevH5SAn__oPQRI45I2qiicsS53_hy3Pc4R-sHy6zbW1gtmTWkyjbxLtdEi7eCG8i9Kj1YfkiI5JjL31A_wKJybO84GyEABI4GQGznTVKHEGWIYxsEAdRdD8BShQ6FrxFqrheedsr2NcL7w/4hw/4jT0208oQ_SE7iawg731mg/h14/h001.62235yvCntK0xDub5lfrXgxoBqzRmE8Cn55-QWxxK6g",
+      "originalSourceUrl": null,
+      "tags": [
+        "AI Agents",
+        "Automation",
+        "HeyGen",
+        "Replit",
+        "Genspark"
+      ],
+      "language": "English",
+      "metaData": {
+        "newsType": "Technology",
+        "industry": "AI",
+        "companyMentioned": [
+          "HeyGen",
+          "Replit",
+          "Genspark"
+        ],
+        "geographicFocus": "Global",
+        "newsImportanceScore": 8,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "AI Tools",
+        "subtopic": "Automation",
+        "relevance_scores": {
+          "AI Developer": 9,
+          "Tech Enthusiast": 8,
+          "Content Creator": 7
+        },
+        "key_tags": [
+          "AI Agents",
+          "Automation",
+          "HeyGen",
+          "Replit",
+          "Genspark"
+        ],
+        "confidence": 0.92
+      }
+    },
+    {
+      "segment": "full_article",
+      "contentType": "news",
+      "contentId": "meta-and-ssi-lock-horns-in-superint",
+      "contentTitle": "Meta and SSI Lock Horns in Superintelligence Race",
+      "summary": "Superintelligence Inc. (SSI) experienced a major shake-up as co-founder Daniel Gross exited to lead Meta’s new superintelligence division. This move follows Meta’s failed attempt to acquire SSI for $32 billion.",
+      "sourceUrl": "https://link.mail.beehiiv.com/ss/c/u001.SkgAtHZPmfFvsooqk90vOo6KtQkjRIpEZ-COTsR86wd1FAa2FDlMn5XpE3WSuWlwL8PWHLLo_-oVvs66II7xUHSDu-KSdn1Yz4azOoaqbeogI0ogPtTV3sjpTRMct6ZBE5GxY1GlQ8t2GaSaGhtrZrQK3ntkokqzIeNyV8hf-Nh673kkIvgxWG-Y0UH1kLjuiCcvWS2nJfRBpRxAwjwEWwpsv0DlvjNGyerl8XlG-1lEXc5KxVpaKeEcbdeJozgT/4hw/4jT0208oQ_SE7iawg731mg/h22/h001.buv5l1E57VRtOmDBNJu9g133Ewi3mEE13PbSUESd4LQ",
+      "originalSourceUrl": null,
+      "tags": [
+        "Meta",
+        "SSI",
+        "Superintelligence",
+        "Daniel Gross",
+        "Acquisition"
+      ],
+      "language": "English",
+      "metaData": {
+        "newsType": "Corporate",
+        "industry": "AI",
+        "companyMentioned": [
+          "Meta",
+          "SSI"
+        ],
+        "geographicFocus": "Global",
+        "newsImportanceScore": 9,
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Corporate Moves",
+        "subtopic": "Acquisitions",
+        "relevance_scores": {
+          "Tech Executive": 9,
+          "Investor": 8,
+          "AI Researcher": 7
+        },
+        "key_tags": [
+          "Meta",
+          "SSI",
+          "Superintelligence",
+          "Daniel Gross",
+          "Acquisition"
+        ],
+        "confidence": 0.93
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "quickNews",
+      "contentId": null,
+      "contentTitle": "Adding calendar events with a screenshot is AI at its finest",
+      "summary": "A new AI tool allows users to add calendar events simply by taking a screenshot, showcasing the convenience and efficiency of AI in everyday tasks.",
+      "sourceUrl": "https://link.mail.beehiiv.com/ss/c/u001.5eFcgNknTk209cd0CueGjCZpJBSEU-NeyDADXFemPk_zaMoyUt6GW-QB0WEcoPkM-PhjIuFRwBw2VPUadAD6aylMzbqi7N68hUIdJM2Q9J300sHyzDSRLBAtf4GOkhYfefl53ZNJrncajwgFvRmT8Jn9qjJvreNIjMe9XGtGkLOlMCCuRLRLzmvmSPgs_GEyJXPcKGMSHA_Av6Ki_M0MByEAEQp79qt2QjwetmCZMFeh4K8Y-5uQJyaCBdjX9PTYYJKbprc7nG8EBaH4Y2PWcbeCbjLL7rUlwxBZRy-kdmT3u9jePXZUfHf5hkBW3LI9rf_OaugV20QV8vQ1Npoyeg/4hw/4jT0208oQ_SE7iawg731mg/h25/h001.fEbBtW1K120JGYJlFF47B3suR_drKt_Uu4ZYtNsGX3k",
+      "originalSourceUrl": null,
+      "tags": [
+        "AI",
+        "Calendar",
+        "Productivity",
+        "Screenshot",
+        "Tool"
+      ],
+      "language": "English",
+      "metaData": {
+        "listOfLinks": [],
+        "oneLiners": [],
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "AI Tools",
+        "subtopic": "Productivity",
+        "relevance_scores": {
+          "Tech Enthusiast": 8,
+          "Product Manager": 7,
+          "General User": 6
+        },
+        "key_tags": [
+          "AI",
+          "Calendar",
+          "Productivity",
+          "Screenshot",
+          "Tool"
+        ],
+        "confidence": 0.89
+      }
+    }
+  ],
+  "extractedAt": "2023-10-05T12:00:00Z"
+}

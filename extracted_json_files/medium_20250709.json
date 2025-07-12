@@ -1,0 +1,207 @@
+{
+  "newsletterName": "Medium Daily Digest",
+  "date": "2023-10-25",
+  "content": [
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "analystuttam-data-science-is-a-dead-career-the-truth-behind-the-trend-no-one-wants-to-say-out-loud-87ee2d8bd338",
+      "contentTitle": "“Data Science Is a Dead Career” — The Truth Behind the Trend No One Wants to…",
+      "summary": "It used to be the sexiest job of the 21st century…",
+      "sourceUrl": "https://medium.com/@analystuttam/data-science-is-a-dead-career-the-truth-behind-the-trend-no-one-wants-to-say-out-loud-87ee2d8bd338?source=email-8d1aa8f687a2-1752029763680-digest.reader-eff46c8d7d84-87ee2d8bd338----0-73------------------0a58c1e6_5f4e_4578_8fe9_4eb98ade3441-1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Analyst Uttam",
+        "AI & Analytics Diaries",
+        "Data Science"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Analyst Uttam",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "Data Science",
+          "Career",
+          "Trends"
+        ],
+        "blogImportanceScore": "8.0",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Career",
+        "subtopic": "Data Science",
+        "relevance_scores": {
+          "Data Scientist": 8,
+          "Career Advisor": 7
+        },
+        "key_tags": [
+          "Data Science",
+          "Career",
+          "Trends"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "weiwei-hu-the-best-career-advice-i-ever-got-43caceeea6d2",
+      "contentTitle": "The Best Career Advice I Ever Got",
+      "summary": "A lot of people say the best career advice they ever…",
+      "sourceUrl": "https://medium.com/@weiwei.hu/the-best-career-advice-i-ever-got-43caceeea6d2?source=email-8d1aa8f687a2-1752029763680-digest.reader-e3421a76bb3f-43caceeea6d2----1-109------------------0a58c1e6_5f4e_4578_8fe9_4eb98ade3441-1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Weiwei Hu",
+        "Women in Technology",
+        "Career Advice"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Weiwei Hu",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "Career",
+          "Advice",
+          "Women in Tech"
+        ],
+        "blogImportanceScore": "7.5",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Career",
+        "subtopic": "Advice",
+        "relevance_scores": {
+          "Career Coach": 8,
+          "Mentor": 7
+        },
+        "key_tags": [
+          "Career",
+          "Advice",
+          "Women in Tech"
+        ],
+        "confidence": 0.85
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "jeazous-ceos-are-literally-begging-to-hire-anyone-with-this-one-skill-ec016bc4d46d",
+      "contentTitle": "CEOs Are Literally Begging to Hire Anyone With This One Skill",
+      "summary": "This is the hottest AI job in 2025.",
+      "sourceUrl": "https://medium.com/@jeazous/ceos-are-literally-begging-to-hire-anyone-with-this-one-skill-ec016bc4d46d?source=email-8d1aa8f687a2-1752029763680-digest.reader-6a8728a8c-ec016bc4d46d----2-73------------------0a58c1e6_5f4e_4578_8fe9_4eb98ade3441-1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Derick David",
+        "Utopian",
+        "AI Skills"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Derick David",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "AI",
+          "Skills",
+          "Jobs"
+        ],
+        "blogImportanceScore": "7.0",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Future of Work",
+        "subtopic": "AI Skills",
+        "relevance_scores": {
+          "AI Specialist": 9,
+          "Recruiter": 8
+        },
+        "key_tags": [
+          "AI",
+          "Skills",
+          "Jobs"
+        ],
+        "confidence": 0.88
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "devon-price-laziness-does-not-exist-3af27e312d01",
+      "contentTitle": "Laziness Does Not Exist",
+      "summary": "Psychological research is clear: when people…",
+      "sourceUrl": "https://medium.com/@devonprice/laziness-does-not-exist-3af27e312d01?source=email-8d1aa8f687a2-1752029763680-digest.reader-544c7006046e-3af27e312d01----3-102------------------0a58c1e6_5f4e_4578_8fe9_4eb98ade3441-1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "Devon Price",
+        "Human Parts",
+        "Psychology"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "Devon Price",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "Psychology",
+          "Laziness",
+          "Behavior"
+        ],
+        "blogImportanceScore": "6.0",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Psychology",
+        "subtopic": "Behavior",
+        "relevance_scores": {
+          "Psychologist": 9,
+          "Behavioral Scientist": 8
+        },
+        "key_tags": [
+          "Psychology",
+          "Laziness",
+          "Behavior"
+        ],
+        "confidence": 0.92
+      }
+    },
+    {
+      "segment": "quick_link",
+      "contentType": "blog",
+      "contentId": "devlink-im-a-software-engineer-in-my-30s-sharing-the-20-hard-truths-i-wish-i-knew-in-my-20s-to-avoid-22404476c2be",
+      "contentTitle": "I’m a software engineer in my 30s, sharing the 20 hard truths I wish I knew in…",
+      "summary": "“Your 20s are for compounding skills, reputation, and…",
+      "sourceUrl": "https://medium.com/@devlink/im-a-software-engineer-in-my-30s-sharing-the-20-hard-truths-i-wish-i-knew-in-my-20s-to-avoid-22404476c2be?source=email-8d1aa8f687a2-1752029763680-digest.reader-5517fd7b58a6-22404476c2be----4-73------------------0a58c1e6_5f4e_4578_8fe9_4eb98ade3441-1",
+      "originalSourceUrl": "null",
+      "tags": [
+        "<devtips/>",
+        "Level Up Coding",
+        "Software Engineering"
+      ],
+      "language": "English",
+      "metaData": {
+        "blogAuthor": "<devtips/>",
+        "blogSource": "Medium",
+        "blogTopicTags": [
+          "Software Engineering",
+          "Career",
+          "Advice"
+        ],
+        "blogImportanceScore": "6.5",
+        "externalLinks": []
+      },
+      "nlpAnalysis": {
+        "topic_category": "Career",
+        "subtopic": "Software Engineering",
+        "relevance_scores": {
+          "Software Engineer": 9,
+          "Career Coach": 7
+        },
+        "key_tags": [
+          "Software Engineering",
+          "Career",
+          "Advice"
+        ],
+        "confidence": 0.87
+      }
+    }
+  ],
+  "extractedAt": "2023-10-25T12:00:00Z"
+}
